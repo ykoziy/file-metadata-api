@@ -12,3 +12,30 @@ body {
   font-family: sans-serif;
   background-color: lightgray;
 }
+
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.file-upload {
+  border: 1px solid black;
+  padding: 0;
+  width: 40%;
+  min-width: 400px;
+  margin-bottom: 20px;
+}
+
+input {
+  display: block;
+  margin: 15px auto;
+}
