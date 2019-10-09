@@ -1,0 +1,15 @@
+{
+  "name": "file-metadata-api",
+  "version": "1.0.0",
+  "description": "File metadata API practice project.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Yuriy Koziy",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
