@@ -1,7 +1,8 @@
 const express = require('express');
 const app = express();
 const multer = require('multer');
-const upload = multer({dest: 'uploads/'});
+const storage = multer.memoryStorage();
+const upload = multer({storage: storage});
 const port = 3000;
 
 app.use(express.static(__dirname + '/public'));
